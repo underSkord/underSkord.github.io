@@ -1,0 +1,43 @@
+nav {
+  position: relative;
+  top: 5vh;
+  width: 50%;
+  float: right;
+}
+
+.menu__bar {
+  position: absolute;
+  left: 25%;
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.menu__btn {
+  background-image: linear-gradient(#fff 0 0);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s, background-position 0s 0.3s;
+  font-family: Roboto;
+  line-height: 1.6;
+
+  &:hover {
+    background-position: 100% 100%;
+    background-size: 100% 2px;
+  }
+}
+
+.menu__link {
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+  color: #191919;
+}
+
+.line {
+  position: absolute;
+  width: 80%;
+  top: 6vh;
+  right: 3vw;
+  border: 1px solid #fff;
+}
