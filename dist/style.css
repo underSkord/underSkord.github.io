@@ -55,6 +55,7 @@ table {
 html {
   height: 100%;
   font-size: 1.5rem;
+  font-family: Roboto, sans-serif;
   --box-border: 0.2rem solid hwb(0 25% 75% / 0.8);
 }
 
@@ -84,7 +85,6 @@ nav {
   background-size: 0% 2px;
   background-repeat: no-repeat;
   transition: background-size 0.3s, background-position 0s 0.3s;
-  font-family: Roboto;
   line-height: 1.6;
 }
 .menu__btn:hover {
@@ -174,6 +174,10 @@ p {
   line-height: 1.4;
   border: var(--box-border);
   background-color: #c3d9d5;
+}
+.name__card h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
 }
 
 .introduction {

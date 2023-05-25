@@ -18,6 +18,11 @@ p {
   line-height: 1.4;
   border: var(--box-border);
   background-color: #c3d9d5;
+
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+  }
 }
 
 .introduction {
