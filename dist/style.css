@@ -56,11 +56,12 @@ html {
   height: 100%;
   font-size: 1.5rem;
   font-family: Roboto, sans-serif;
-  --box-border: 0.2rem solid hwb(0 25% 75% / 0.8);
+  --box-border: 0.2rem solid #4e93b0;
+  --border-radius: 0.3rem;
 }
 
 body {
-  background-image: url(/pics/background.png);
+  background-image: url(/pics/backgroundv2v2.png);
   background-repeat: no-repeat;
 }
 
@@ -154,14 +155,6 @@ nav {
   font-family: Roboto-ThinItalic;
   src: url(/fonts/Roboto-ThinItalic.ttf);
 }
-span {
-  font-size: 1.1rem;
-}
-
-p {
-  color: rgb(15, 15, 15);
-}
-
 .name__card {
   position: relative;
   bottom: 15vh;
@@ -169,30 +162,55 @@ p {
   width: 15vw;
   padding: 1rem 2rem;
   text-align: center;
-  border-radius: 0.3rem;
   letter-spacing: 0.1rem;
   line-height: 1.4;
   border: var(--box-border);
-  background-color: #c3d9d5;
+  border-radius: var(--border-radius);
+  background-color: #8adce9;
 }
 .name__card h1 {
   text-transform: uppercase;
-  letter-spacing: 0.3rem;
+  letter-spacing: var(--border-radius);
 }
 
-.introduction {
+.content__box {
   position: absolute;
   left: 25%;
-  top: 50%;
+  top: 35%;
   width: 50%;
+  height: 70%;
   padding: 5rem 1rem 1rem;
-  border-radius: 0.3rem;
-  background-color: #cbd9c3;
+  border-radius: var(--border-radius);
   border: var(--box-border);
+  background-color: #cbd9c3;
 }
+
+p {
+  color: rgb(15, 15, 15);
+}
+
+footer {
+  position: relative;
+  top: 150vh;
+  padding: 1rem;
+  text-align: center;
+  background-color: #4e93b0;
+}
+
 .introduction__text {
+  position: relative;
+  left: 10vw;
+  bottom: 45vh;
+  width: 50%;
+  transform: translate(50%, 0);
   letter-spacing: 0.05rem;
   line-height: 1.4;
   text-align: justify;
-  width: 60%;
+}
+
+img {
+  position: relative;
+  left: 3vw;
+  width: 30%;
+  border-radius: 0.3rem;
 }/*# sourceMappingURL=style.css.map */
