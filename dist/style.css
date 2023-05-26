@@ -214,4 +214,12 @@ img {
   left: 3vw;
   width: 30%;
   border-radius: 0.3rem;
+}
+
+.contact__info {
+  display: flex;
+  margin: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
