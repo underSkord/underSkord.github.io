@@ -208,7 +208,7 @@ footer {
   text-align: justify;
 }
 
-img {
+.portrait {
   position: relative;
   top: 5vh;
   left: 3vw;
@@ -216,10 +216,26 @@ img {
   border-radius: 0.3rem;
 }
 
-.contact__info {
+.contacts {
+  position: relative;
+  top: 10vh;
+  width: 100%;
   display: flex;
-  margin: 2rem;
+  justify-content: space-around;
+}
+
+.contact__img {
+  background-color: white;
+  background-color: yellow;
+}
+
+.img__container {
+  background-color: blue;
+  text-align: center;
+}
+
+h3 {
   text-transform: uppercase;
-  text-decoration: none;
-  color: black;
+  background-color: green;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
