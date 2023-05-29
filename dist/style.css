@@ -225,17 +225,19 @@ footer {
 }
 
 .contact__img {
+  margin-top: 5vh;
+  border-radius: 100%;
   background-color: white;
-  background-color: yellow;
 }
 
-.img__container {
-  background-color: blue;
-  text-align: center;
+.contact__h2 {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%);
 }
 
 h3 {
-  text-transform: uppercase;
-  background-color: green;
   text-align: center;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
