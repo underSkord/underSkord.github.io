@@ -35,6 +35,7 @@
   background-color: #8adce9;
   transition: 0.1s ease-in;
 }
+
 .card2 {
   left: 35%;
 
@@ -43,6 +44,7 @@
     transition: 0.1s ease-in;
   }
 }
+
 .card3 {
   left: 67.5%;
   &:hover {
@@ -50,11 +52,15 @@
     transition: 0.1s ease-in;
   }
 }
+
 .img2 {
   position: relative;
   left: 0.5vw;
 }
+
 h3 {
   margin: 6vh;
   text-align: center;
+  color: black;
+  font-size: 1.1rem;
 }
