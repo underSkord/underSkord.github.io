@@ -1,12 +1,16 @@
 .introduction__text {
   position: relative;
-  left: 10vw;
+  left: 7vw;
   bottom: 45vh;
   width: 50%;
   transform: translate(50%, 0);
   letter-spacing: 0.05rem;
   line-height: 1.4;
   text-align: justify;
+  border-radius: 5%;
+  padding: 1rem;
+  border: var(--box-border);
+  background-color: white;
 }
 
 .portrait {

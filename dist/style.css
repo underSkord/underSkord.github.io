@@ -182,7 +182,7 @@ nav {
   padding: 5rem 1rem 1rem;
   border-radius: var(--border-radius);
   border: var(--box-border);
-  background-color: #cbd9c3;
+  background-color: #f7f8bb;
 }
 
 p {
@@ -199,13 +199,17 @@ footer {
 
 .introduction__text {
   position: relative;
-  left: 10vw;
+  left: 7vw;
   bottom: 45vh;
   width: 50%;
   transform: translate(50%, 0);
   letter-spacing: 0.05rem;
   line-height: 1.4;
   text-align: justify;
+  border-radius: 5%;
+  padding: 1rem;
+  border: var(--box-border);
+  background-color: white;
 }
 
 .portrait {
