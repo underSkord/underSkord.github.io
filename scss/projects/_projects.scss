@@ -1,0 +1,49 @@
+.projects__list {
+  position: absolute;
+  margin: 1.5rem auto;
+  width: 33%;
+  height: 40vh;
+  background-color: white;
+  border: var(--box-border);
+  border-radius: var(--border-radius);
+
+  & h4 {
+    padding: 0.4rem;
+    text-align: center;
+  }
+  & p {
+    text-align: justify;
+    padding: 1rem;
+  }
+}
+
+.content__box-projects {
+  position: absolute;
+  left: 25%;
+  top: 35%;
+  width: 50%;
+  height: 100%;
+  padding: 5rem 1rem 1rem;
+  border-radius: var(--border-radius);
+  border: var(--box-border);
+  background-color: #f7f8bb;
+}
+
+.item1 {
+  position: absolute;
+  left: 10%;
+}
+.item2 {
+  position: absolute;
+  left: 55%;
+}
+.item3 {
+  position: absolute;
+  left: 10%;
+  bottom: 5vh;
+}
+.item4 {
+  position: absolute;
+  bottom: 5vh;
+  left: 55%;
+}
