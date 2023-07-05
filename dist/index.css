@@ -1,0 +1,298 @@
+@font-face {
+  font-family: Inter-Medium;
+  src: url(/fonts/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: Inter-Regular;
+  src: url(/fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(/fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-Semibold;
+  src: url(/fonts/Inter-SemiBold.ttf);
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: Montserrat-Regular, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.3;
+  text-decoration: none;
+  color: #2e2e2e;
+  background-color: hsl(0, 0%, 80%);
+  text-align: center;
+}
+
+#profile {
+  text-align: center;
+}
+#profile h1 {
+  margin-top: 5rem;
+  font-size: 2.3rem;
+}
+#profile img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 65%);
+}
+
+#portrait {
+  width: 150px;
+  height: 150px;
+  margin: 1rem auto;
+}
+
+.bold {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+#about h3 {
+  margin-bottom: 1rem;
+}
+#about p {
+  margin: auto;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 50%;
+}
+
+#projects {
+  margin: 5rem 0;
+}
+
+#projects__h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2.5rem;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+}
+#grid p {
+  width: 90%;
+  margin: auto;
+}
+
+#item-1 {
+  margin: 0 auto;
+}
+#item-1 img {
+  width: 50%;
+  height: 50%;
+}
+
+#item-2 {
+  margin: 0 auto;
+}
+#item-2 img {
+  width: 50%;
+  height: 50%;
+}
+
+#item-3 {
+  margin: 0 auto;
+}
+#item-3 img {
+  width: 50%;
+  height: 50%;
+}
+
+#item-4 {
+  margin: 0 auto;
+}
+#item-4 img {
+  width: 50%;
+  height: 50%;
+}
+
+.project__h5 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.project__bnt {
+  padding: 0.5rem;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 0 2px #151515;
+}
+.project__bnt:hover {
+  background-color: #e5e5e5;
+  box-shadow: 0 0 0 2px #696969;
+  position: relative;
+  cursor: auto;
+}
+
+#contact {
+  font-size: 1.3rem;
+  margin-bottom: 5rem;
+}
+#contact a {
+  text-decoration: none;
+  color: #0000c2;
+}
+#contact ul {
+  gap: 2rem;
+}
+#contact h2 {
+  font-size: 1.8rem;
+}
+#contact h5 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+#email {
+  margin: 3rem auto;
+}
+
+#linkedin {
+  margin: 3rem auto;
+}
+
+#github {
+  margin: 3rem auto;
+}/*# sourceMappingURL=index.css.map */

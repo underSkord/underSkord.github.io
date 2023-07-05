@@ -1,22 +1,11 @@
-.introduction__text {
-  position: absolute;
-  left: 7vw;
-  bottom: 10vh;
-  width: 50%;
-  transform: translate(50%, 0);
-  letter-spacing: 0.05rem;
-  line-height: 1.4;
-  text-align: justify;
-  border-radius: 5%;
-  padding: 1rem;
-  border: var(--box-border);
-  background-color: white;
-}
-
-.portrait {
-  position: relative;
-  top: 5vh;
-  left: 3vw;
-  width: 30%;
-  border-radius: 0.3rem;
+#about {
+  h3 {
+    margin-bottom: 1rem;
+  }
+  p {
+    margin: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+    width: 50%;
+  }
 }

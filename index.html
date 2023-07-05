@@ -2,57 +2,110 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/dist/style.css" />
-    <title>Personal Website</title>
+    <link rel="stylesheet" href="/dist/index.css" />
+    <title>Personal Portfolio</title>
   </head>
-  <body>
-    <nav>
-      <ul class="menu__bar">
-        <li class="menu__btn">
-          <a href="index.html" class="menu__link">HOME</a>
-        </li>
-        <li class="menu__btn">
-          <a href="projects.html" class="menu__link">PROJECTS</a>
-        </li>
-        <li class="menu__btn">
-          <a href="contact.html" class="menu__link">CONTACT</a>
-        </li>
-      </ul>
-      <div class="line"></div>
-    </nav>
 
-    <main>
-      <div class="content__box">
-        <div class="name__card">
-          <h1>About</h1>
-        </div>
-        <img
-          src="/pics/ai-generated-7849616_960_720.jpg"
-          alt=""
-          class="portrait"
-        />
-        <div class="introduction__text">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-            voluptatem laboriosam ratione dignissimos beatae nihil consequatur
-            neque vitae asperiores? Repellat obcaecati dolores exercitationem
-            magnam. Cum cumque voluptas fugit voluptate vitae. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Eius voluptatibus praesentium
-            tempora exercitationem, et, repellat blanditiis, quo eveniet quia
-            quam nesciunt? Ipsum accusantium illo iure soluta placeat deleniti
-            voluptates quo.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            obcaecati, est corrupti at eveniet cumque quos atque consectetur
-            repellendus quo ab minima eius natus maxime inventore maiores
-            aliquid voluptate molestiae.
-          </p>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <h1>Hi! I'm <span class="bold">HUMAN</span></h1>
+        <div id="portrait">
+          <img
+            src="pic/croppedai-generated-guy.png"
+            alt="AI generated picture of a man "
+          />
         </div>
       </div>
-    </main>
-    <footer>Here be dragons</footer>
+      <div id="about">
+        <h2>
+          Using Web Technologies to build
+          <span class="bold">your</span> websites.
+        </h2>
+        <p>
+          Here goes some fluff stuff about me. lorem ipsum dolor sit amet
+          whahahahahahhahshafhashfajshfjashfjkashjkfakshfas
+        </p>
+        <br />
+        <p>
+          Here goes some fluff stuff about me. I was BORN in a PLACE on a
+          certain DATE. I say this to prove that I AM HUMAN!
+        </p>
+        <p>
+          01001001 00100000 01100001 01101101 00100000 01101000 01110101
+          01101101 01100001 01101110 00100000 01101010 01110101 01110011
+          01110100 00100000 01101100 01101001 01101011 01100101 00100000
+          01111001 01101111 01110101 00100000 01100100 01100101 01100001
+          01110010 00100000 01110010 01100101 01100001 01100100 01100101
+          01110010 00101110
+        </p>
+      </div>
+      <div id="projects">
+        <h2 id="projects__h2">My Projects</h2>
+        <div id="grid">
+          <div id="item-1" class="projects__showcase">
+            <img
+              src="/pic/HD-wallpaper-black-rose-black-lover-blackrose-love-natural-phone-rose-love.jpg"
+              alt=""
+            />
+            <h5 class="project__h5">Project’s type</h5>
+            <p>
+              Some info about the project goes here. but not a whole lot just
+              the most important
+            </p>
+            <button class="project__bnt">Expand</button>
+          </div>
+          <div id="item-2" class="projects__showcase">
+            <img
+              src="/pic/HD-wallpaper-black-rose-black-lover-blackrose-love-natural-phone-rose-love.jpg"
+              alt=""
+            />
+            <h5 class="project__h5">Project’s type</h5>
+            <p>
+              Some info about the project goes here. but not a whole lot just
+              the most important
+            </p>
+            <button class="project__bnt">Expand</button>
+          </div>
+          <div id="item-3" class="projects__showcase">
+            <img
+              src="/pic/HD-wallpaper-black-rose-black-lover-blackrose-love-natural-phone-rose-love.jpg"
+              alt=""
+            />
+            <h5 class="project__h5">Project’s type</h5>
+            <p>
+              Some info about the project goes here. but not a whole lot just
+              the most important
+            </p>
+            <button class="project__bnt">Expand</button>
+          </div>
+          <div id="item-4" class="projects__showcase">
+            <img
+              src="/pic/HD-wallpaper-black-rose-black-lover-blackrose-love-natural-phone-rose-love.jpg"
+              alt=""
+            />
+            <h5 class="project__h5">Project’s type</h5>
+            <p>
+              Some info about the project goes here. but not a whole lot just
+              the most important
+            </p>
+            <button class="project__bnt">Expand</button>
+          </div>
+        </div>
+      </div>
+      <div id="contact">
+        <h2>Where you can see me:</h2>
+        <ul>
+          <li id="email">myemail@myemail.com</li>
+          <li id="linkedin">
+            <a href="">LinkedIn</a>
+          </li>
+          <li id="github">
+            <a href="https://github.com/underSkord">Github</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>

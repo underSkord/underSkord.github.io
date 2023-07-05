@@ -1,0 +1,24 @@
+#profile {
+  text-align: center;
+
+  h1 {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 65%);
+  }
+}
+
+#portrait {
+  width: 150px;
+  height: 150px;
+  margin: 1rem auto;
+}
+.bold {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
