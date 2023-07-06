@@ -9,14 +9,6 @@ const item2Info = document.querySelector('#item-2__info');
 const item3Info = document.querySelector('#item-3__info');
 const item4Info = document.querySelector('#item-4__info');
 
-let hidden = function () {
-    if (item1Info.style.display === "none") {
-        item1Info.style.display = "block";
-    } else {
-        item1Info.style.display === "none";
-    }
-}
-
 item1Btn.addEventListener('click', () => {
     if (item1Info.style.display === "none") {
         item1Info.style.display = "block";
